@@ -4,7 +4,7 @@
 
 struct linkedListNode {
   int value;
-  struct linkedListNode *next;
+  struct linkedListNode * next;
 };
 
 struct linkedListNode * linkedListAdd(struct linkedListNode * root, int value);
